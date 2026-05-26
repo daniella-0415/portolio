@@ -105,9 +105,12 @@ text-decoration: none;
 
 .btn {
   text-decoration: none;
+  color: #050505;
   
 }
-
+.btn a{
+  color: #00ffae44;
+}
 .hero-image{
   flex:1;
   min-width:300px;
