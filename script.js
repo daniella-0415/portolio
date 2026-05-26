@@ -1,4 +1,3 @@
-// NAVBAR EFFECT
 
 const nav = document.querySelector("nav");
 
@@ -20,22 +19,17 @@ window.addEventListener("scroll", () => {
 
 });
 
+// const heroImage = document.querySelector(".hero-image img");
 
-// PARALLAX EFFECT
+// window.addEventListener("scroll", () => {
 
-const heroImage = document.querySelector(".hero-image img");
+//   let scroll = window.scrollY;
 
-window.addEventListener("scroll", () => {
+//   heroImage.style.transform =
+//   `translateY(${scroll * 0.2}px)`;
 
-  let scroll = window.scrollY;
+// });
 
-  heroImage.style.transform =
-  `translateY(${scroll * 0.2}px)`;
-
-});
-
-
-// SCROLL REVEAL
 
 const reveals = document.querySelectorAll(
   ".about-box, .skill, .card, .contact-box"
